@@ -1,8 +1,8 @@
 :root {
-  --light-green: #299;
-  --dark-green: #277;
+
   --ds-grey: #2F4F4F;
   --ls-grey: #778899;
+  --white: #fff;
 }
 
 * {
@@ -11,3 +11,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/** Navbar **/
+.logo {
+  width: 4.6875rem;
+  /** margin-left: 1.25rem; **/
+}
+
+/** Menu links **/
+nav a.nav-link {
+  /** font-weight: 500; **/
+  font-size: x-large;
+  letter-spacing: 0.0375rem;
+  /** margin-right: 0.9375rem; **/
+}
+
+.navbar-nav >li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+/**
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 6rem;
+}
+**/
