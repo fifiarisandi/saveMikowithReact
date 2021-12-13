@@ -11,7 +11,7 @@ const AboutUs = () => {
                     </div>
                 </div>
                 <div className="col-lg-6 col-sm-12">
-                    <h2>about us</h2>
+                    <h2>About Us</h2>
                     <p>
                     SaveMiko! was founded in Tallinn, Estonia by a group of animal lovers, who are excited about helping unfortunate dogs. 
                     The name is inspired by Miko, a dog who was neglected by his owners for years, before he was finally rescued.

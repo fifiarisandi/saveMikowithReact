@@ -5,6 +5,7 @@ import Header from "./components/layouts/Header";
 import Navbar from "./components/layouts/Navbar";
 import Footer from "./components/layouts/Footer";
 import AboutUs from "./components/layouts/AboutUs";
+import DogsDatabase from "./components/layouts/DogsDatabase";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Header />
     <Navbar />
     <AboutUs />
+    <DogsDatabase />
     <Footer />
     </div>
   );

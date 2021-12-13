@@ -2,7 +2,9 @@
 
   --ds-grey: #2F4F4F;
   --ls-grey: #778899;
-  --white: #fff;
+  --white: #ffff;
+  --black: #000;
+  --orange: #ffa500;
 }
 
 * {
@@ -58,3 +60,84 @@ nav a.nav-link {
     width: 10rem;
   }
 }
+
+/** Dogs Database **/
+.database-wrapper {
+  background: var(--ds-grey);
+  padding: 3rem 0;
+}
+
+.database-wrapper h2{
+  color: var(--white);
+}
+
+.dog-img {
+  width: 25rem;
+  /** border: 1px solid var(--ls-grey); **/
+  /** padding: 0 0.5rem; **/
+}
+
+.dog-img-box {
+  position: relative;
+  border: 1px solid var(--orange);
+  margin: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.dog-text {
+  color: var(--white);
+  /**text-align: center;*/
+  /**font-style: oblique;*/
+  font-size: small;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.sponsor-btn {
+  background-color: var(--white);
+  font-size: medium;
+  font-weight: bold;
+  font-style: bold;
+  margin-bottom: 1rem;
+  padding: 0.3125rem;
+}
+
+/** Overflow **/
+/**.overflow {
+  position: absolute;
+  opacity: 0 !important;
+  background-color: var(--black) !important;
+  width: 15rem;
+  height: 8rem;
+  top: 0rem;
+  border: 0.0625rem solid var(--orange);
+  cursor: pointer;
+}**/
+
+/**.dog-img-box:hover .overflow {
+  opacity: 60% !important;
+  transition: 0.3s ease-in-out !important;
+}**/
+
+.database-icon {
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 3.6rem;
+  color: var(--orange);
+  font-size: 1.5rem;
+}
+
+/**.dog-img-box:hover .database-icon {
+  opacity: 70%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}**/
+
+/** Popup **/
+/** .popupbox-img {
+  width: 45rem !important;
+  padding: 0 0.5rem !important;
+}**/
