@@ -61,6 +61,16 @@ nav a.nav-link {
   }
 }
 
+/** Home **/
+.Miko-img {
+  width: 45rem;
+}
+
+.intro-text {
+  text-align: left, right;
+  font-size: small;
+}
+
 /** Dogs Database **/
 .database-wrapper {
   background: var(--ds-grey);

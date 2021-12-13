@@ -6,14 +6,17 @@ import Navbar from "./components/layouts/Navbar";
 import Footer from "./components/layouts/Footer";
 import AboutUs from "./components/layouts/AboutUs";
 import DogsDatabase from "./components/layouts/DogsDatabase";
+import Home from "./components/layouts/Home";
+
 
 function App() {
   return (
     <div className="App"> 
     <Header />
     <Navbar />
-    <AboutUs />
+    <Home />
     <DogsDatabase />
+    <AboutUs />
     <Footer />
     </div>
   );
