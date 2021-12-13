@@ -38,3 +38,23 @@ nav a.nav-link {
   height: 6rem;
 }
 **/
+
+/** About Us **/
+.photoWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-img {
+  width: 20rem;
+  border-radius: 50%;
+  padding: .3rem;
+  border: 1px solid var(--ds-grey);
+}
+
+@media(max-width: 468px) {
+  .team-img {
+    width: 10rem;
+  }
+}
