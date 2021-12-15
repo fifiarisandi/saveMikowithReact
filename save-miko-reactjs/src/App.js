@@ -7,6 +7,7 @@ import Footer from "./components/layouts/Footer";
 import AboutUs from "./components/layouts/AboutUs";
 import DogsDatabase from "./components/layouts/DogsDatabase";
 import Home from "./components/layouts/Home";
+import Form from "./components/layouts/Form";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <Navbar />
     <Home />
     <DogsDatabase />
+    <Form />
     <AboutUs />
     <Footer />
     </div>

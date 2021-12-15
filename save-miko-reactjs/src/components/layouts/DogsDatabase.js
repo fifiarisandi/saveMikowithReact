@@ -8,6 +8,8 @@ import { faSearchPlus } from '@fortawesome/free-solid-svg-icons';
 //popup box
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
+import { Link } from "react-scroll";
+
 
 //import Popup from "reactjs-popup";
 //import "reactjs-popup/dist/index.css";
@@ -42,7 +44,7 @@ const DogsDatabase = () => {
     //}
 
     return (
-        <div className="database-wrapper">
+        <div id="sponsor" className="database-wrapper">
             <div className="container">
                 <h2 className="text-center py-5">Sponsor a Dog</h2>
                 <div className="image-box-wrapper d-flex justify-content-center">
@@ -54,7 +56,9 @@ const DogsDatabase = () => {
                         <p className="dog-text"> I can be very protective over my things and can get very anxious around people I don't know. 
                         However, I'm super lucky that my carers here understand me, know all my quirks and are helping me build my confidence around people.
                         </p>
-                        <button type="button" className="sponsor-btn"> Sponsor me! </button>
+                        <Link smooth={true} to="signup" className="nav-link" href="#">
+                            <button type="button" className="sponsor-btn"> Sponsor me! </button>
+                        </Link>
                         {/* <div className="overflow"></div>
                         <FontAwesomeIcon className="database-icon" icon={faSearchPlus} />  */}
                     </div>
@@ -68,7 +72,9 @@ const DogsDatabase = () => {
                         <p className="dog-text"> I came here because I started to get really nervous around people I don't know and my owners weren’t able to look after me anymore. 
                             It can take me a while to trust someone new and I sometimes get wary around other dogs too when they want to share my food.
                         </p>
-                        <button type="button" className="sponsor-btn"> Sponsor me! </button>
+                        <Link smooth={true} to="signup" className="nav-link" href="#">
+                            <button type="button" className="sponsor-btn"> Sponsor me! </button>
+                        </Link>
                         {/* <div className="overflow"></div>
                         <FontAwesomeIcon className="database-icon" icon={faSearchPlus} /> */}
                     </div>
@@ -82,7 +88,9 @@ const DogsDatabase = () => {
                         <p className="dog-text">I was a stray before I came here. 
                         I get really anxious and wary around new people and dogs so finding a home that suits me is tricky.
                         </p>
-                        <button type="button" className="sponsor-btn"> Sponsor me! </button>
+                        <Link smooth={true} to="signup" className="nav-link" href="#">
+                            <button type="button" className="sponsor-btn"> Sponsor me! </button>
+                        </Link>
                         {/* <div className="overflow"></div>
                         <FontAwesomeIcon className="database-icon" icon={faSearchPlus} /> */}
                     </div>

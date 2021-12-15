@@ -4,10 +4,10 @@ import miko from "../../images/Miko.png";
 
 const Home = () => {
     return (
-        <div className="container py-5">
+        <div id="home" className="container py-5">
             <div className="row">
                 <div className="col-12 col-md-7">
-                    <div className="photoWrap mb-5">
+                    <div className="mikophotoWrap mb-5">
                         <img className="Miko-img" src={miko} alt="SaveMiko!" />  
                     </div>
                 </div>
@@ -29,7 +29,7 @@ const Home = () => {
                     You will get a regular update on your dogs, their photos, health condition, what toys they like, and some pawprints for you! 
                     You can also plan a regular visit to play with them. We will send you financial reports regularly, so you know where your money goes.
                     </p>
-                    <p className><strong>
+                    <p><strong>
                     You can make a difference to the lives of these precious souls!
                     </strong></p>
                 </div>

@@ -42,6 +42,16 @@ nav a.nav-link {
 **/
 
 /** About Us **/
+.container-fluid {
+  background: var(--ds-grey);
+  padding: 3rem 0;
+}
+
+.textWrap {
+  color: var(--white);
+}
+
+
 .photoWrap {
   display: flex;
   justify-content: center;
@@ -49,8 +59,8 @@ nav a.nav-link {
 }
 
 .team-img {
-  width: 20rem;
-  border-radius: 50%;
+  width: 25rem;
+  border-radius: 20%;
   padding: .3rem;
   border: 1px solid var(--ds-grey);
 }
@@ -62,13 +72,28 @@ nav a.nav-link {
 }
 
 /** Home **/
+.mikophotoWrap {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+}
+
 .Miko-img {
-  width: 45rem;
+  width: 40rem;
+  height: 30rem;
+  padding: 0.1rem;
+  border: 1px solid var(--ds-grey);
+}
+
+@media(max-width: 468px) {
+  .Miko-img {
+    width: 10rem;
+  }
 }
 
 .intro-text {
   text-align: left, right;
-  font-size: small;
+  font-size: medium;
 }
 
 /** Dogs Database **/

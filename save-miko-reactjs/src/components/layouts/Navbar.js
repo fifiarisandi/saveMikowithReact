@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import logo from "../../logosaveMiko.png";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
     return (
@@ -8,9 +9,9 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container">
 
-                <a className="navbar-brand" href="#"> 
+                <Link smooth={true} to="home" className="navbar-brand" href="#"> 
                 <img className="logo" src={logo} alt="logo" />
-                </a>
+                </Link>
                 <button 
                     className="navbar-toggler" 
                     type="button" 
@@ -26,15 +27,15 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item active">
-                            <a className="nav-link" href="#">
+                            <Link smooth={true} to="home" className="nav-link" href="#">
                                 Home <span className="sr-only"></span>
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Sponsor a Dog</a>
+                            <Link smooth={true} to="sponsor" className="nav-link" href="#">Sponsor a Dog</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">About Us</a>
+                            <Link smooth={true} to="about" className="nav-link" href="#">About Us</Link>
                         </li>
                     </ul>
                 </div>
