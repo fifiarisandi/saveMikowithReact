@@ -76,6 +76,7 @@ nav a.nav-link {
   height: 30rem;
   padding: 0.1rem;
   border: 1px solid var(--ds-grey);
+  border-radius: 10px 10px 10px 10px;
 }
 
 @media(max-width: 468px) {
@@ -101,6 +102,7 @@ nav a.nav-link {
 
 .dog-img {
   width: 25rem;
+  border-radius: 10px 10px 0 0;
 }
 
 .dog-img-box {
@@ -109,6 +111,7 @@ nav a.nav-link {
   margin: 1rem;
   text-align: center;
   margin-bottom: 2rem;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .dog-text {
